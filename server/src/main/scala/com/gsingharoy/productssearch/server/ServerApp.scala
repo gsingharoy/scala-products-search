@@ -36,5 +36,5 @@ object ServerApp extends App with Directives {
     }
   }
 
-  Http().bindAndHandle(routes, "0.0.0.0", 8002)
+  Http().bindAndHandle(routes, "localhost", 8002)
 }
