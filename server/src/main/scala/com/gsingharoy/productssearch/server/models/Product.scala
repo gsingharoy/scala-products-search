@@ -5,7 +5,7 @@ import io.circe.generic.semiauto
 
 
 case class Product(name: String,
-                   price: Double,
+                   price: Double = 0.0D,
                    brand: String,
                    imageUrl: Option[String] = None)
 
