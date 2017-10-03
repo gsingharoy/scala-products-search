@@ -25,8 +25,18 @@ class RawProductsResponseJSONDecoderSpec extends WordSpec with Matchers with Giv
         page = Some(1),
         totalPages = Some(24518),
         content = Seq(
-          RawProduct(id = "BU311C02R-802", modelId = "BU311C02R", name = "Boots - garda suede", brand = RawBrand("Buffalo")),
-          RawProduct(id = "HU312A00O-C11", modelId = "HU312A00O", name = "SLIMMER STADIL - Trainers - castle rock/ribbon red/bril blue", brand = RawBrand("Hummel"))
+          RawProduct(
+            id = "BU311C02R-802",
+            modelId = "BU311C02R",
+            name = "Boots - garda suede",
+            brand = RawBrand("Buffalo"),
+            units = Seq(RawProductUnit(RawProductPrice(72.24)), RawProductUnit(RawProductPrice(72.24)))),
+          RawProduct(
+            id = "HU312A00O-C11",
+            modelId = "HU312A00O",
+            name = "SLIMMER STADIL - Trainers - castle rock/ribbon red/bril blue",
+            brand = RawBrand("Hummel"),
+            units = Seq(RawProductUnit(RawProductPrice(54.99D))))
         ))
 
       unmarshalledRawProductsResponse should equal(Some(expectecRawProductResponse))
