@@ -39,5 +39,45 @@ class InmemoryProductsRepositorySpec extends WordSpec with GivenWhenThen with Ma
         Product(name = "product5", brand = "brand5")
       ))
     }
+
+    "match products based on fulltext and fulltexttype" in {
+      Given("a collection of products")
+      val products = Seq(
+        Product(name = "slim cut JEANS", brand = "levis"),
+        Product(name = "torn jeans", brand = "levis USA"),
+        Product(name = "sweater", brand = "primark"),
+        Product(name = "pullover", brand = "primark"),
+        Product(name = "swanky", brand = "acme jeans")
+      )
+
+      And("an inmemory repository containing the products")
+      val repository = InmemoryProductsRepository(products)
+
+      And("a query with a non existing fulltext search")
+      Then("the repository should return empty list")
+      repository.findAll(ProductsQuery(fullText = Some("invalid"), pageSize = 2)) should equal(Seq())
+
+      When("a query with an existing fulltext search")
+      Then("the repository should return the matching products with name and brand")
+      repository.findAll(ProductsQuery(fullText = Some("jeans"), pageSize = 3)) should equal(Seq(
+        Product(name = "slim cut JEANS", brand = "levis"),
+        Product(name = "torn jeans", brand = "levis USA"),
+        Product(name = "swanky", brand = "acme jeans")
+      ))
+
+      When("a query with an existing fulltext search and invalid fulltexttype")
+      Then("the repository should return the matching products with name and brand")
+      repository.findAll(ProductsQuery(fullText = Some("jeans"), fullTextType = Some("something-invalid"), pageSize = 3)) should equal(Seq(
+        Product(name = "slim cut JEANS", brand = "levis"),
+        Product(name = "torn jeans", brand = "levis USA"),
+        Product(name = "swanky", brand = "acme jeans")
+      ))
+
+      When("a query with an existing fulltext search and valid fulltexttype")
+      Then("the repository should return the matching products with the fulltexttype")
+      repository.findAll(ProductsQuery(fullText = Some("jeans"), fullTextType = Some("brand"), pageSize = 3)) should equal(Seq(
+        Product(name = "swanky", brand = "acme jeans")
+      ))
+    }
   }
 }
