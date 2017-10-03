@@ -12,8 +12,15 @@ case class ProductsSearchRequest(q: Option[String] = None,
     fullText = q,
     fullTextType = c,
     page = page.getOrElse(1),
-    pageSize = 10
+    pageSize = 10,
+    sort = Some(applicableSort),
+    sortOrder = direction.map(_.toLowerCase)
   )
+
+  private lazy val applicableSort = sort.map(_.toLowerCase) match {
+    case Some(c) if Seq("brand","name").contains(c) => c
+    case _ => "price"
+  }
 }
 
 object ProductsSearchRequest {

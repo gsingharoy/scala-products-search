@@ -21,21 +21,21 @@ class InmemoryProductsRepositorySpec extends WordSpec with GivenWhenThen with Ma
 
       And("a query requesting first 2 products")
       Then("the repository should return first 2 products")
-      repository.findAll(ProductsQuery(page=1, pageSize = 2)) should equal(Seq(
+      repository.findAll(ProductsQuery(page = 1, pageSize = 2)) should equal(Seq(
         Product(name = "product1", brand = "brand1"),
         Product(name = "product2", brand = "brand2")
       ))
 
       When("a query requesting page 2 of size 2")
       Then("the repository should return the appropiate products")
-      repository.findAll(ProductsQuery(page=2, pageSize = 2)) should equal(Seq(
+      repository.findAll(ProductsQuery(page = 2, pageSize = 2)) should equal(Seq(
         Product(name = "product3", brand = "brand3"),
         Product(name = "product4", brand = "brand4")
       ))
 
       When("a query requesting page 3 of size 2")
       Then("the repository should return the appropiate products")
-      repository.findAll(ProductsQuery(page=3, pageSize = 2)) should equal(Seq(
+      repository.findAll(ProductsQuery(page = 3, pageSize = 2)) should equal(Seq(
         Product(name = "product5", brand = "brand5")
       ))
     }
@@ -77,6 +77,34 @@ class InmemoryProductsRepositorySpec extends WordSpec with GivenWhenThen with Ma
       Then("the repository should return the matching products with the fulltexttype")
       repository.findAll(ProductsQuery(fullText = Some("jeans"), fullTextType = Some("brand"), pageSize = 3)) should equal(Seq(
         Product(name = "swanky", brand = "acme jeans")
+      ))
+    }
+
+    "sort products when sort value is present" in {
+      Given("a collection of products")
+      val products = Seq(
+        Product(name = "slim cut JEANS", brand = "levis", price = 100D),
+        Product(name = "torn jeans", brand = "levis USA", price = 20D),
+        Product(name = "sweater", brand = "primark", price = 30D),
+        Product(name = "pullover", brand = "primark", price = 40D),
+        Product(name = "swanky", brand = "acme jeans", price = 50D)
+      )
+
+      And("an inmemory repository containing the products")
+      val repository = InmemoryProductsRepository(products)
+
+      And("a query with an empty query with sorting on price")
+      Then("the repository should the products sorted with price")
+      repository.findAll(ProductsQuery(pageSize = 2, sort = Some("price"))) should equal(Seq(
+        Product(name = "torn jeans", brand = "levis USA", price = 20D),
+        Product(name = "sweater", brand = "primark", price = 30D)
+      ))
+
+      When("a query with a full text query with sorting on price desc")
+      Then("the repository should the products sorted with brand")
+      repository.findAll(ProductsQuery(fullText = Some("jeans"), pageSize = 2, sort = Some("price"), sortOrder = Some("desc"))) should equal(Seq(
+        Product(name = "slim cut JEANS", brand = "levis", price = 100D),
+          Product(name = "swanky", brand = "acme jeans", price = 50D)
       ))
     }
   }

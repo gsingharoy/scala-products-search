@@ -31,13 +31,15 @@ class ProductsSearchRequestSpec extends WordSpec with Matchers {
         c = Some("category"),
         page = Some(2),
         sort = Some("sorting category"),
-        direction = Some("asc"))
+        direction = Some("ASC"))
 
       request.toQuery should equal(ProductsQuery(
         fullText = Some("full text"),
         fullTextType = Some("category"),
         page = 2,
-        pageSize = 10
+        pageSize = 10,
+        sort = Some("price"),
+        sortOrder = Some("asc")
       ))
     }
   }
