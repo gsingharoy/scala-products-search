@@ -13,8 +13,10 @@ object ServerApp extends App with Directives {
   val routes: Route = {
     path("v1"/ "api" / "search") {
       get {
-        val resp: ResponseEntity = HttpEntity(ContentTypes.`application/json`, "{\"my_key\":\"my_value\"}")
-        complete(HttpResponse(StatusCodes.OK, entity = resp))
+        parameterMap { params =>
+          val resp: ResponseEntity = HttpEntity(ContentTypes.`application/json`, "{\"my_key\":\"my_value\"}")
+          complete(HttpResponse(StatusCodes.OK, entity = resp))
+        }
       }
     }
   }
