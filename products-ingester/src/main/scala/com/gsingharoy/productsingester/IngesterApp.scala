@@ -1,7 +1,9 @@
 package com.gsingharoy.productsingester
 
+import com.gsingharoy.productsingester.repository.ProductsRepository
 import com.gsingharoy.productsingester.services.fetcher.zalando.ZalandoProductsFetcher
 import com.typesafe.config.ConfigFactory
+import com.gsingharoy.productsingester.models.Product
 
 import scala.concurrent.duration._
 import scala.concurrent.{Await, Future}
@@ -21,6 +23,11 @@ object IngesterApp extends App {
     products3 <- productsFuture3
   } yield (products1 ++ products2 ++ products3)
 
-
+  println("Fetching products")
   val products: Seq[Product] = Await.result(productsFuture, 10 second)
+  println(s"Finished fetching ${products.length} products")
+  val productsRepository = ProductsRepository(appConfig)
+  println("Write products to repository")
+  productsRepository.store(products)
+  println(s"Finished storing ${products.length} products to repository")
 }
