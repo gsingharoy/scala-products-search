@@ -1,0 +1,684 @@
+{
+  "content": [
+    {
+      "id": "BU311C02R-802",
+      "modelId": "BU311C02R",
+      "name": "Boots - garda suede",
+      "shopUrl": "https://www.zalando.co.uk/buffalo-boots-black-bu311c02r-802.html",
+      "color": "Black",
+      "available": true,
+      "season": "WINTER",
+      "seasonYear": "2017",
+      "activationDate": "2013-07-03T09:13:15Z",
+      "additionalInfos": [],
+      "genders": [
+        "FEMALE"
+      ],
+      "ageGroups": [
+        "ADULT"
+      ],
+      "brand": {
+        "key": "BU3",
+        "name": "Buffalo",
+        "logoUrl": "https://i2.ztat.net/brand/5da2be6b-da28-4ac4-8bc6-5f5f555eea73.jpg",
+        "logoLargeUrl": "https://i2.ztat.net/brandxl/5da2be6b-da28-4ac4-8bc6-5f5f555eea73.jpg",
+        "shopUrl": "https://www.zalando.co.uk/buffalo"
+      },
+      "categoryKeys": [
+        "catalog",
+        "women",
+        "womens-shoes",
+        "womens-shoes-ankle-boots",
+        "womens-shoes-classic-ankle-boots",
+        "cowboy-biker-ankle-boots",
+        "all",
+        "shoes"
+      ],
+      "attributes": [
+        {
+          "name": "bootleg width",
+          "values": [
+            "10.0 \""
+          ]
+        },
+        {
+          "name": "Sole",
+          "values": [
+            "synthetics"
+          ]
+        },
+        {
+          "name": "heel height",
+          "values": [
+            "1.0 \""
+          ]
+        },
+        {
+          "name": "Shoe tip",
+          "values": [
+            "round"
+          ]
+        },
+        {
+          "name": "Heel type",
+          "values": [
+            "block heel"
+          ]
+        },
+        {
+          "name": "upper detail",
+          "values": [
+            "foldable shaft"
+          ]
+        },
+        {
+          "name": "bootleg height",
+          "values": [
+            "5.5 \""
+          ]
+        },
+        {
+          "name": "Lining",
+          "values": [
+            "leather"
+          ]
+        },
+        {
+          "name": "detail",
+          "values": [
+            "decorative studs",
+            "buckle"
+          ]
+        },
+        {
+          "name": "shoe fastener",
+          "values": [
+            "slip on"
+          ]
+        },
+        {
+          "name": "upper material",
+          "values": [
+            "leather"
+          ]
+        },
+        {
+          "name": "Insole",
+          "values": [
+            "leather"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "BU311C02R-8020040000",
+          "size": "7",
+          "price": {
+            "currency": "GBP",
+            "value": 72.24,
+            "formatted": "£72.24"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 84.99,
+            "formatted": "£84.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "BU311C02R-8020041000",
+          "size": "8",
+          "price": {
+            "currency": "GBP",
+            "value": 72.24,
+            "formatted": "£72.24"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 84.99,
+            "formatted": "£84.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "BU311C02R-8020039000",
+          "size": "6",
+          "price": {
+            "currency": "GBP",
+            "value": 72.24,
+            "formatted": "£72.24"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 84.99,
+            "formatted": "£84.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "BU311C02R-8020037000",
+          "size": "4",
+          "price": {
+            "currency": "GBP",
+            "value": 72.24,
+            "formatted": "£72.24"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 84.99,
+            "formatted": "£84.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "BU311C02R-8020038000",
+          "size": "5",
+          "price": {
+            "currency": "GBP",
+            "value": 72.24,
+            "formatted": "£72.24"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 84.99,
+            "formatted": "£84.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "BU311C02R-8020036000",
+          "size": "3",
+          "price": {
+            "currency": "GBP",
+            "value": 72.24,
+            "formatted": "£72.24"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 84.99,
+            "formatted": "£84.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "BU311C02R-8020042000",
+          "size": "9",
+          "price": {
+            "currency": "GBP",
+            "value": 72.24,
+            "formatted": "£72.24"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 84.99,
+            "formatted": "£84.99"
+          },
+          "available": true,
+          "stock": 3
+        }
+      ],
+      "media": {
+        "images": [
+          {
+            "orderNumber": 1,
+            "type": "UNSPECIFIED",
+            "thumbnailHdUrl": "https://i3.ztat.net/thumb_hd/BU/31/1C/02/R8/02/BU311C02R-802@1.1.jpg",
+            "smallUrl": "https://i3.ztat.net/catalog/BU/31/1C/02/R8/02/BU311C02R-802@1.1.jpg",
+            "smallHdUrl": "https://i3.ztat.net/catalog_hd/BU/31/1C/02/R8/02/BU311C02R-802@1.1.jpg",
+            "mediumUrl": "https://i3.ztat.net/detail/BU/31/1C/02/R8/02/BU311C02R-802@1.1.jpg",
+            "mediumHdUrl": "https://i3.ztat.net/detail_hd/BU/31/1C/02/R8/02/BU311C02R-802@1.1.jpg",
+            "largeUrl": "https://i3.ztat.net/large/BU/31/1C/02/R8/02/BU311C02R-802@1.1.jpg",
+            "largeHdUrl": "https://i3.ztat.net/large_hd/BU/31/1C/02/R8/02/BU311C02R-802@1.1.jpg"
+          },
+          {
+            "orderNumber": 2,
+            "type": "UNSPECIFIED",
+            "thumbnailHdUrl": "https://i2.ztat.net/thumb_hd/BU/31/1C/02/R8/02/BU311C02R-802@2.1.jpg",
+            "smallUrl": "https://i2.ztat.net/catalog/BU/31/1C/02/R8/02/BU311C02R-802@2.1.jpg",
+            "smallHdUrl": "https://i2.ztat.net/catalog_hd/BU/31/1C/02/R8/02/BU311C02R-802@2.1.jpg",
+            "mediumUrl": "https://i2.ztat.net/detail/BU/31/1C/02/R8/02/BU311C02R-802@2.1.jpg",
+            "mediumHdUrl": "https://i2.ztat.net/detail_hd/BU/31/1C/02/R8/02/BU311C02R-802@2.1.jpg",
+            "largeUrl": "https://i2.ztat.net/large/BU/31/1C/02/R8/02/BU311C02R-802@2.1.jpg",
+            "largeHdUrl": "https://i2.ztat.net/large_hd/BU/31/1C/02/R8/02/BU311C02R-802@2.1.jpg"
+          },
+          {
+            "orderNumber": 3,
+            "type": "UNSPECIFIED",
+            "thumbnailHdUrl": "https://i1.ztat.net/thumb_hd/BU/31/1C/02/R8/02/BU311C02R-802@3.1.jpg",
+            "smallUrl": "https://i1.ztat.net/catalog/BU/31/1C/02/R8/02/BU311C02R-802@3.1.jpg",
+            "smallHdUrl": "https://i1.ztat.net/catalog_hd/BU/31/1C/02/R8/02/BU311C02R-802@3.1.jpg",
+            "mediumUrl": "https://i1.ztat.net/detail/BU/31/1C/02/R8/02/BU311C02R-802@3.1.jpg",
+            "mediumHdUrl": "https://i1.ztat.net/detail_hd/BU/31/1C/02/R8/02/BU311C02R-802@3.1.jpg",
+            "largeUrl": "https://i1.ztat.net/large/BU/31/1C/02/R8/02/BU311C02R-802@3.1.jpg",
+            "largeHdUrl": "https://i1.ztat.net/large_hd/BU/31/1C/02/R8/02/BU311C02R-802@3.1.jpg"
+          },
+          {
+            "orderNumber": 4,
+            "type": "UNSPECIFIED",
+            "thumbnailHdUrl": "https://i6.ztat.net/thumb_hd/BU/31/1C/02/R8/02/BU311C02R-802@4.1.jpg",
+            "smallUrl": "https://i6.ztat.net/catalog/BU/31/1C/02/R8/02/BU311C02R-802@4.1.jpg",
+            "smallHdUrl": "https://i6.ztat.net/catalog_hd/BU/31/1C/02/R8/02/BU311C02R-802@4.1.jpg",
+            "mediumUrl": "https://i6.ztat.net/detail/BU/31/1C/02/R8/02/BU311C02R-802@4.1.jpg",
+            "mediumHdUrl": "https://i6.ztat.net/detail_hd/BU/31/1C/02/R8/02/BU311C02R-802@4.1.jpg",
+            "largeUrl": "https://i6.ztat.net/large/BU/31/1C/02/R8/02/BU311C02R-802@4.1.jpg",
+            "largeHdUrl": "https://i6.ztat.net/large_hd/BU/31/1C/02/R8/02/BU311C02R-802@4.1.jpg"
+          },
+          {
+            "orderNumber": 5,
+            "type": "UNSPECIFIED",
+            "thumbnailHdUrl": "https://i5.ztat.net/thumb_hd/BU/31/1C/02/R8/02/BU311C02R-802@5.1.jpg",
+            "smallUrl": "https://i5.ztat.net/catalog/BU/31/1C/02/R8/02/BU311C02R-802@5.1.jpg",
+            "smallHdUrl": "https://i5.ztat.net/catalog_hd/BU/31/1C/02/R8/02/BU311C02R-802@5.1.jpg",
+            "mediumUrl": "https://i5.ztat.net/detail/BU/31/1C/02/R8/02/BU311C02R-802@5.1.jpg",
+            "mediumHdUrl": "https://i5.ztat.net/detail_hd/BU/31/1C/02/R8/02/BU311C02R-802@5.1.jpg",
+            "largeUrl": "https://i5.ztat.net/large/BU/31/1C/02/R8/02/BU311C02R-802@5.1.jpg",
+            "largeHdUrl": "https://i5.ztat.net/large_hd/BU/31/1C/02/R8/02/BU311C02R-802@5.1.jpg"
+          },
+          {
+            "orderNumber": 6,
+            "type": "UNSPECIFIED",
+            "thumbnailHdUrl": "https://i4.ztat.net/thumb_hd/BU/31/1C/02/R8/02/BU311C02R-802@6.1.jpg",
+            "smallUrl": "https://i4.ztat.net/catalog/BU/31/1C/02/R8/02/BU311C02R-802@6.1.jpg",
+            "smallHdUrl": "https://i4.ztat.net/catalog_hd/BU/31/1C/02/R8/02/BU311C02R-802@6.1.jpg",
+            "mediumUrl": "https://i4.ztat.net/detail/BU/31/1C/02/R8/02/BU311C02R-802@6.1.jpg",
+            "mediumHdUrl": "https://i4.ztat.net/detail_hd/BU/31/1C/02/R8/02/BU311C02R-802@6.1.jpg",
+            "largeUrl": "https://i4.ztat.net/large/BU/31/1C/02/R8/02/BU311C02R-802@6.1.jpg",
+            "largeHdUrl": "https://i4.ztat.net/large_hd/BU/31/1C/02/R8/02/BU311C02R-802@6.1.jpg"
+          },
+          {
+            "orderNumber": 7,
+            "type": "UNSPECIFIED",
+            "thumbnailHdUrl": "https://i3.ztat.net/thumb_hd/BU/31/1C/02/R8/02/BU311C02R-802@7.1.jpg",
+            "smallUrl": "https://i3.ztat.net/catalog/BU/31/1C/02/R8/02/BU311C02R-802@7.1.jpg",
+            "smallHdUrl": "https://i3.ztat.net/catalog_hd/BU/31/1C/02/R8/02/BU311C02R-802@7.1.jpg",
+            "mediumUrl": "https://i3.ztat.net/detail/BU/31/1C/02/R8/02/BU311C02R-802@7.1.jpg",
+            "mediumHdUrl": "https://i3.ztat.net/detail_hd/BU/31/1C/02/R8/02/BU311C02R-802@7.1.jpg",
+            "largeUrl": "https://i3.ztat.net/large/BU/31/1C/02/R8/02/BU311C02R-802@7.1.jpg",
+            "largeHdUrl": "https://i3.ztat.net/large_hd/BU/31/1C/02/R8/02/BU311C02R-802@7.1.jpg"
+          }
+        ]
+      },
+      "tags": []
+    },
+    {
+      "id": "HU312A00O-C11",
+      "modelId": "HU312A00O",
+      "name": "SLIMMER STADIL - Trainers - castle rock/ribbon red/bril blue",
+      "shopUrl": "https://www.zalando.co.uk/hummel-slimmer-stadil-low-canvas-trainers-grey-hu312a00o-c11.html",
+      "color": "Grey",
+      "available": true,
+      "season": "ALL",
+      "seasonYear": "ALL",
+      "activationDate": "2014-03-11T09:39:06Z",
+      "additionalInfos": [],
+      "genders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "ageGroups": [
+        "ADULT"
+      ],
+      "brand": {
+        "key": "HU3",
+        "name": "Hummel",
+        "logoUrl": "https://i5.ztat.net/brand/4ca49c4c-70b2-4bfe-bd34-43cfdfcfe5c7.jpg",
+        "logoLargeUrl": "https://i5.ztat.net/brandxl/4ca49c4c-70b2-4bfe-bd34-43cfdfcfe5c7.jpg",
+        "shopUrl": "https://www.zalando.co.uk/hummel"
+      },
+      "categoryKeys": [
+        "catalog",
+        "women",
+        "womens-shoes",
+        "womens-shoes-trainers",
+        "low-top-trainers",
+        "men",
+        "mens-shoes",
+        "mens-shoes-trainers",
+        "mens-shoes-low-top-trainers",
+        "all",
+        "shoes"
+      ],
+      "attributes": [
+        {
+          "name": "Sole",
+          "values": [
+            "synthetics"
+          ]
+        },
+        {
+          "name": "Padding type",
+          "values": [
+            "Cold padding"
+          ]
+        },
+        {
+          "name": "Shoe tip",
+          "values": [
+            "round"
+          ]
+        },
+        {
+          "name": "Heel type",
+          "values": [
+            "flat"
+          ]
+        },
+        {
+          "name": "Lining",
+          "values": [
+            "textile"
+          ]
+        },
+        {
+          "name": "shoe fastener",
+          "values": [
+            "laces"
+          ]
+        },
+        {
+          "name": "upper material",
+          "values": [
+            "leather and textile"
+          ]
+        },
+        {
+          "name": "Insole",
+          "values": [
+            "textile"
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "HU312A00O-C110470000",
+          "size": "12",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110380000",
+          "size": "5",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110390000",
+          "size": "6",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110480000",
+          "size": "12.5",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110370000",
+          "size": "4",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110420000",
+          "size": "8",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110430000",
+          "size": "9",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110360000",
+          "size": "3.5",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110460000",
+          "size": "11",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110400000",
+          "size": "6.5",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110410000",
+          "size": "7.5",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110440000",
+          "size": "9.5",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        },
+        {
+          "id": "HU312A00O-C110450000",
+          "size": "10.5",
+          "price": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "originalPrice": {
+            "currency": "GBP",
+            "value": 54.99,
+            "formatted": "£54.99"
+          },
+          "available": true,
+          "stock": 3
+        }
+      ],
+      "media": {
+        "images": [
+          {
+            "orderNumber": 1,
+            "type": "NON_MODEL",
+            "thumbnailHdUrl": "https://i3.ztat.net/thumb_hd/HU/31/2A/00/OC/11/HU312A00O-C11@19.jpg",
+            "smallUrl": "https://i3.ztat.net/catalog/HU/31/2A/00/OC/11/HU312A00O-C11@19.jpg",
+            "smallHdUrl": "https://i3.ztat.net/catalog_hd/HU/31/2A/00/OC/11/HU312A00O-C11@19.jpg",
+            "mediumUrl": "https://i3.ztat.net/detail/HU/31/2A/00/OC/11/HU312A00O-C11@19.jpg",
+            "mediumHdUrl": "https://i3.ztat.net/detail_hd/HU/31/2A/00/OC/11/HU312A00O-C11@19.jpg",
+            "largeUrl": "https://i3.ztat.net/large/HU/31/2A/00/OC/11/HU312A00O-C11@19.jpg",
+            "largeHdUrl": "https://i3.ztat.net/large_hd/HU/31/2A/00/OC/11/HU312A00O-C11@19.jpg"
+          },
+          {
+            "orderNumber": 2,
+            "type": "NON_MODEL",
+            "thumbnailHdUrl": "https://i2.ztat.net/thumb_hd/HU/31/2A/00/OC/11/HU312A00O-C11@18.jpg",
+            "smallUrl": "https://i2.ztat.net/catalog/HU/31/2A/00/OC/11/HU312A00O-C11@18.jpg",
+            "smallHdUrl": "https://i2.ztat.net/catalog_hd/HU/31/2A/00/OC/11/HU312A00O-C11@18.jpg",
+            "mediumUrl": "https://i2.ztat.net/detail/HU/31/2A/00/OC/11/HU312A00O-C11@18.jpg",
+            "mediumHdUrl": "https://i2.ztat.net/detail_hd/HU/31/2A/00/OC/11/HU312A00O-C11@18.jpg",
+            "largeUrl": "https://i2.ztat.net/large/HU/31/2A/00/OC/11/HU312A00O-C11@18.jpg",
+            "largeHdUrl": "https://i2.ztat.net/large_hd/HU/31/2A/00/OC/11/HU312A00O-C11@18.jpg"
+          },
+          {
+            "orderNumber": 3,
+            "type": "NON_MODEL",
+            "thumbnailHdUrl": "https://i1.ztat.net/thumb_hd/HU/31/2A/00/OC/11/HU312A00O-C11@17.jpg",
+            "smallUrl": "https://i1.ztat.net/catalog/HU/31/2A/00/OC/11/HU312A00O-C11@17.jpg",
+            "smallHdUrl": "https://i1.ztat.net/catalog_hd/HU/31/2A/00/OC/11/HU312A00O-C11@17.jpg",
+            "mediumUrl": "https://i1.ztat.net/detail/HU/31/2A/00/OC/11/HU312A00O-C11@17.jpg",
+            "mediumHdUrl": "https://i1.ztat.net/detail_hd/HU/31/2A/00/OC/11/HU312A00O-C11@17.jpg",
+            "largeUrl": "https://i1.ztat.net/large/HU/31/2A/00/OC/11/HU312A00O-C11@17.jpg",
+            "largeHdUrl": "https://i1.ztat.net/large_hd/HU/31/2A/00/OC/11/HU312A00O-C11@17.jpg"
+          },
+          {
+            "orderNumber": 4,
+            "type": "NON_MODEL",
+            "thumbnailHdUrl": "https://i2.ztat.net/thumb_hd/HU/31/2A/00/OC/11/HU312A00O-C11@16.jpg",
+            "smallUrl": "https://i2.ztat.net/catalog/HU/31/2A/00/OC/11/HU312A00O-C11@16.jpg",
+            "smallHdUrl": "https://i2.ztat.net/catalog_hd/HU/31/2A/00/OC/11/HU312A00O-C11@16.jpg",
+            "mediumUrl": "https://i2.ztat.net/detail/HU/31/2A/00/OC/11/HU312A00O-C11@16.jpg",
+            "mediumHdUrl": "https://i2.ztat.net/detail_hd/HU/31/2A/00/OC/11/HU312A00O-C11@16.jpg",
+            "largeUrl": "https://i2.ztat.net/large/HU/31/2A/00/OC/11/HU312A00O-C11@16.jpg",
+            "largeHdUrl": "https://i2.ztat.net/large_hd/HU/31/2A/00/OC/11/HU312A00O-C11@16.jpg"
+          },
+          {
+            "orderNumber": 5,
+            "type": "NON_MODEL",
+            "thumbnailHdUrl": "https://i3.ztat.net/thumb_hd/HU/31/2A/00/OC/11/HU312A00O-C11@15.jpg",
+            "smallUrl": "https://i3.ztat.net/catalog/HU/31/2A/00/OC/11/HU312A00O-C11@15.jpg",
+            "smallHdUrl": "https://i3.ztat.net/catalog_hd/HU/31/2A/00/OC/11/HU312A00O-C11@15.jpg",
+            "mediumUrl": "https://i3.ztat.net/detail/HU/31/2A/00/OC/11/HU312A00O-C11@15.jpg",
+            "mediumHdUrl": "https://i3.ztat.net/detail_hd/HU/31/2A/00/OC/11/HU312A00O-C11@15.jpg",
+            "largeUrl": "https://i3.ztat.net/large/HU/31/2A/00/OC/11/HU312A00O-C11@15.jpg",
+            "largeHdUrl": "https://i3.ztat.net/large_hd/HU/31/2A/00/OC/11/HU312A00O-C11@15.jpg"
+          },
+          {
+            "orderNumber": 6,
+            "type": "NON_MODEL",
+            "thumbnailHdUrl": "https://i6.ztat.net/thumb_hd/HU/31/2A/00/OC/11/HU312A00O-C11@14.jpg",
+            "smallUrl": "https://i6.ztat.net/catalog/HU/31/2A/00/OC/11/HU312A00O-C11@14.jpg",
+            "smallHdUrl": "https://i6.ztat.net/catalog_hd/HU/31/2A/00/OC/11/HU312A00O-C11@14.jpg",
+            "mediumUrl": "https://i6.ztat.net/detail/HU/31/2A/00/OC/11/HU312A00O-C11@14.jpg",
+            "mediumHdUrl": "https://i6.ztat.net/detail_hd/HU/31/2A/00/OC/11/HU312A00O-C11@14.jpg",
+            "largeUrl": "https://i6.ztat.net/large/HU/31/2A/00/OC/11/HU312A00O-C11@14.jpg",
+            "largeHdUrl": "https://i6.ztat.net/large_hd/HU/31/2A/00/OC/11/HU312A00O-C11@14.jpg"
+          }
+        ]
+      },
+      "tags": []
+    }
+  ],
+  "totalElements": 49035,
+  "totalPages": 24518,
+  "page": 1,
+  "size": 2
+}
