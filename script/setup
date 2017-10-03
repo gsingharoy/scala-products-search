@@ -1,0 +1,3 @@
+#!/bin/bash -x
+
+cd products-ingester && sbt clean run
