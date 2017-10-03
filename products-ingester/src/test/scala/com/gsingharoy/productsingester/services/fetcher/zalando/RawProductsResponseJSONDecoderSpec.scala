@@ -1,4 +1,4 @@
-package com.gsingharoy.productsingester.services.fetcher
+package com.gsingharoy.productsingester.services.fetcher.zalando
 
 import io.circe.parser
 import org.scalatest.{GivenWhenThen, Matchers, WordSpec}
